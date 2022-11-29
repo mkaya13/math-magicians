@@ -1,8 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import CalculatorUI from './components/Calculator';
 import reportWebVitals from './reportWebVitals';
+
+// eslint-disable-next-line react/prefer-stateless-function
+class App extends React.Component {
+  render() {
+    return (
+      <CalculatorUI />
+    );
+  }
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
