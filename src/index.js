@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import CalculatorUI from './components/Calculator';
 import reportWebVitals from './reportWebVitals';
-import Example from './components/denemeComp';
 
 // eslint-disable-next-line react/prefer-stateless-function
 class App extends React.Component {
@@ -18,7 +17,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <Example />
   </React.StrictMode>,
 );
 

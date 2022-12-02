@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 function Example() {
   const [count, setCount] = useState(1);
@@ -10,6 +10,10 @@ function Example() {
   const myDecreaseClick = () => {
     setCount(count - 1);
   };
+
+  useEffect(() => {
+    console.log(`You clicked count ${count} times`);
+  });
 
   return (
     <div>
