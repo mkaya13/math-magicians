@@ -43,6 +43,12 @@ body {
   cursor: pointer;
 }
 
+.box-1 {
+  display: flex;
+  align-content: center;
+  text-align: center;
+}
+
 .box-type-2 {
   font-size: 40px;
   color: black;
