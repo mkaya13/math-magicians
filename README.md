@@ -110,14 +110,7 @@ Clone this repository to your desired folder:
 
 Install this project with:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+- `npm install`
 
 ### Usage
 
@@ -152,10 +145,6 @@ Incoming ...
 ## 🔭 Future Features <a name="future-features"></a>
 
 > Incoming ...
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
