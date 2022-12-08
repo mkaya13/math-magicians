@@ -1,15 +1,46 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import CalculatorUI from './components/Calculator';
 import reportWebVitals from './reportWebVitals';
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import Quote from './pages/Quote';
 
 // eslint-disable-next-line react/prefer-stateless-function
-class App extends React.Component {
+export default class App extends React.Component {
   render() {
     return (
-      <CalculatorUI />
+      <>
+        <Navbar />
+        <Routes>
+          <Route
+            path="/"
+            element={(
+              <>
+                <Home />
+              </>
+          )}
+          />
+          <Route
+            path="/calculator"
+            element={(
+              <>
+                <CalculatorUI />
+              </>
+            )}
+          />
+          <Route
+            path="/quote"
+            element={(
+              <>
+                <Quote />
+              </>
+            )}
+          />
+        </Routes>
+      </>
     );
   }
 }
