@@ -1,7 +1,7 @@
 import React from 'react';
 import '../index.css';
 
-const Home = () => (
+const Quote = () => (
   <div className="quote-page">
     <p className="quote">
       Mathematics is not about numbers, equations, computations, or algorithms:
@@ -9,4 +9,4 @@ const Home = () => (
     </p>
   </div>
 );
-export default Home;
+export default Quote;
