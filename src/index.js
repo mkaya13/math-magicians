@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import { BrowserRouter as Router } from 'react-router-dom';
 import CalculatorUI from './components/Calculator';
 import reportWebVitals from './reportWebVitals';
 
@@ -16,7 +17,9 @@ class App extends React.Component {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router basename={process.env.PUBLIC_URL}>
+      <App />
+    </Router>
   </React.StrictMode>,
 );
 
