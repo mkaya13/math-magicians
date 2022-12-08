@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Calculator component should renders Calculator component 1`] = `
+<div>
+  <div
+    className="flex-container"
+    data-testid="calculator-items"
+  >
+    <div
+      className="box-type-1 box-1"
+    >
+      0
+    </div>
+    <button
+      className="box-type-2 box-2"
+      onClick={[Function]}
+      type="button"
+    >
+      AC
+    </button>
+    <button
+      className="box-type-2 box-3"
+      onClick={[Function]}
+      type="button"
+    >
+      +/-
+    </button>
+    <button
+      className="box-type-2 box-4"
+      onClick={[Function]}
+      type="button"
+    >
+      %
+    </button>
+    <button
+      className="box-type-2 orange-box box-5"
+      onClick={[Function]}
+      type="button"
+    >
+      ÷
+    </button>
+    <button
+      className="box-type-2 box-6"
+      onClick={[Function]}
+      type="button"
+    >
+      7
+    </button>
+    <button
+      className="box-type-2 box-7"
+      onClick={[Function]}
+      type="button"
+    >
+      8
+    </button>
+    <button
+      className="box-type-2 box-8"
+      onClick={[Function]}
+      type="button"
+    >
+      9
+    </button>
+    <button
+      className="box-type-2 orange-box box-9"
+      onClick={[Function]}
+      type="button"
+    >
+      x
+    </button>
+    <button
+      className="box-type-2 box-10"
+      data-testid="4"
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+    <button
+      className="box-type-2 box-11"
+      data-testid="5"
+      onClick={[Function]}
+      type="button"
+    >
+      5
+    </button>
+    <button
+      className="box-type-2 box-12"
+      data-testid="6"
+      onClick={[Function]}
+      type="button"
+    >
+      6
+    </button>
+    <button
+      className="box-type-2 orange-box box-13"
+      onClick={[Function]}
+      type="button"
+    >
+      -
+    </button>
+    <button
+      className="box-type-2 box-14"
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      className="box-type-2 box-15"
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      className="box-type-2 box-16"
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="box-type-2 orange-box box-17"
+      data-testid="+"
+      onClick={[Function]}
+      type="button"
+    >
+      +
+    </button>
+    <button
+      className="box-type-3 box-18"
+      onClick={[Function]}
+      type="button"
+    >
+      0
+    </button>
+    <button
+      className="box-type-2 box-19"
+      onClick={[Function]}
+      type="button"
+    >
+      .
+    </button>
+    <button
+      className="box-type-2 orange-box box-20"
+      data-testid="="
+      onClick={[Function]}
+      type="button"
+    >
+      =
+    </button>
+  </div>
+</div>
+`;
